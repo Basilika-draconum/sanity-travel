@@ -5,6 +5,11 @@ export default defineType({
   title: 'Navigation',
   type: 'document',
   fields: [
+     defineField({
+      name: 'id',
+      title: 'Identificator',
+      type: 'number',
+    }),
     defineField({
       name: 'label',
       title: 'Label',
