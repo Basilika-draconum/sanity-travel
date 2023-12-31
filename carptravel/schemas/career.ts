@@ -5,6 +5,11 @@ export default defineType({
   title: 'Career',
   type: 'document',
   fields: [
+     defineField({
+      name: 'id',
+      title: 'Id',
+      type: 'number',
+    }),
     defineField({
       name: 'title',
       title: 'Title',

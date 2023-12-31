@@ -30,5 +30,10 @@ export default defineType({
       title: 'Image',
       type: 'image',
     }),
+     defineField({
+      name: 'id',
+      title: 'Id',
+      type: 'number',
+    }),
   ],
 })
